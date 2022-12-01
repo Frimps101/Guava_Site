@@ -1,0 +1,36 @@
+.reason_container{
+    margin-top: 5rem;
+}
+
+.reason_container h4{
+    color: blue;
+    margin-bottom: 2rem;
+}
+
+.reason_container h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #072A6C;
+}
+
+.reason-content{
+    display: flex;
+    gap: 2rem;
+}
+
+.reason-content .content-item{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.reason-content .content-item h5{
+    font-size: 1.2rem;
+    color: #072A6C;
+}
+
+.reason-content .content-item p{
+    font-size: 14px;
+    line-height: 1.5rem;
+    color: #072a6caf;
+}

@@ -1,0 +1,24 @@
+.sponsors_container{
+    margin-top: 300px;
+}
+
+.sponsors_logo__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponsors_logo__item{
+    /* width: 60px; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sponsors_logo__item img{
+    width: 50px;
+}
+
+.sponsors_logo__item span{
+    font-size: 1.4rem;
+    font-weight: bold;
+}

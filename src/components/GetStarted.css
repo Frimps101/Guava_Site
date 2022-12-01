@@ -1,0 +1,41 @@
+.started_container{
+    margin-top: 5rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.started_first{
+    flex: 1.5;
+}
+
+.started_first h3{
+    color: blue;
+    margin-bottom: 1.2rem;
+}
+
+.started_first p{
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    color: #072a6cce;
+}
+
+.started_second, .started_third{
+    flex: 1;
+    font-size: 14px;
+}
+
+.started_text_head{
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+    color: #072A6C;
+}
+
+.started_text p{
+    color: #072a6cce;
+}
+
+.started_text .btn{
+    margin-top: 1.2rem;
+    color: blue;
+}

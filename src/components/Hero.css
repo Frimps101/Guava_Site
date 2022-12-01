@@ -1,0 +1,87 @@
+.wrapper{
+    /* width: 100%; */
+    background: linear-gradient(109.6deg, rgb(123, 90, 224) 11.2%, rgb(164, 46, 253) 32.6%, rgb(213, 56, 234) 62.7%, rgb(238, 116, 24) 100.2%);  
+    animation: animate 15s ease infinite; 
+    height: 85vh;
+    transform-origin: 0;
+    transform: skewY(-11deg);
+    padding-top: 10rem;
+    
+}
+
+.logo img{
+    width: 40%;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.hero_container{
+    transform: skewY(11deg);
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_item{
+    margin-left: 5rem;
+    color: white;
+    font-size: 1.045rem;
+    font-weight: bold;
+}
+
+.content{
+    display: flex;
+    gap: 6rem;
+}
+
+.content_text{
+    flex: 1;
+    margin-top: 4rem;
+    /* width: 40%; */
+    height: 80%;
+}
+
+.content_text h1{
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    width: 90%;
+}
+
+.content_text p{
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+    width: 80%;
+}
+
+
+.content_imgs{
+    flex: .5;
+}
+
+.img{
+    width: 264px;
+    height: 533px;
+    margin-top: 3.5rem;
+    z-index: 1000;
+}
+
+.content_imgs img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    z-index: 1000;
+}

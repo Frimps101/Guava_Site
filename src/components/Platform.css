@@ -1,0 +1,29 @@
+.platform_container{
+    margin-top: 5rem;
+}
+
+.platform_container h4{
+    color: blue;
+    margin-bottom: 2rem;
+}
+
+.platform_container h1{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #080D38;
+}
+
+.platform-content{
+    display: flex;
+    gap: 3rem;
+    line-height: 1.8rem;   
+}
+
+.content-left{
+    color:  #072a6cce;
+}
+
+.platform-content .content-left, .platform-content .content-right{
+    flex: 1;
+    color:  #072a6cce;
+}
