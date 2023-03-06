@@ -1,21 +1,28 @@
-import React from 'react'
-import Logo from '../logo.png';
-import './Navbar.css';
+import React from "react";
+import Logo from "../logo.png";
+import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <section className='nav_container'>
-            <a href="#" className="logo">
-                <img src={Logo} alt="" />
-            </a>
+    <header className="nav_container section">
+      <Link to="#" className="logo">
+        <img src={Logo} alt="" />
+      </Link>
 
-        <nav className="nav">
-            <a href="" className='nav_item'>Company</a>
-            <a href="" className='nav_item'>Contact</a>
-            <a href="" className='nav_item'>Faqs</a>
-        </nav>
-    </section>
-  )
-}
+      <nav className="nav">
+        <Link to="" className="nav_item">
+          Company
+        </Link>
+        <Link to="" className="nav_item">
+          Contact
+        </Link>
+        <Link to="" className="nav_item">
+          Faqs
+        </Link>
+      </nav>
+    </header>
+  );
+};
 
-export default Navbar
+export default Navbar;

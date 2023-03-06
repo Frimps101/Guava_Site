@@ -17,6 +17,7 @@
     display: flex;
     gap: 3rem;
     line-height: 1.8rem;   
+    margin-bottom: 5rem;
 }
 
 .content-left{
@@ -26,4 +27,16 @@
 .platform-content .content-left, .platform-content .content-right{
     flex: 1;
     color:  #072a6cce;
+}
+
+
+.platform-img{
+    width: 1094px;
+    margin: auto;
+    position: relative;
+}
+
+.platform-img img{
+    width: 100%;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
 }

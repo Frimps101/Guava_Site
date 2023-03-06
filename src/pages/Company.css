@@ -1,3 +1,17 @@
 section{
     padding: 2rem 9%;
 }
+
+.enterprise{
+    margin-top: 5rem;
+}
+
+.enterprise-head h2{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.enterprise-head p{
+    color: black;
+    margin-bottom: 1.5rem;
+}

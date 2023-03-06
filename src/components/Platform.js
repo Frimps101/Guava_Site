@@ -1,5 +1,6 @@
 import React from 'react';
 import './Platform.css';
+import PaymentCards from '../images/Cards.png'
 
 const Platform = () => {
   return (
@@ -20,6 +21,11 @@ const Platform = () => {
             We also help individual and companies beat fraud,  manage business revenue, enhance capital allocation, issue virtual and physical cards, get financing and much more.
             </div>
         </div>
+        
+          <div className="platform-img">
+            <img src={PaymentCards} alt="" />
+          </div>
+        
     </section>
   )
 }

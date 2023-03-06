@@ -1,0 +1,142 @@
+.c{
+    height: 90vh;
+    position: relative;
+}
+
+/* .c-bg{
+    width: 20px;
+    height: 100%;
+    background: var(--gradient);
+    position: absolute;
+} */
+
+.c-wrapper{
+    padding: 50px;
+    display: flex;
+    gap: 40px;
+    /* margin-bottom: 100vh !important; */
+}
+
+.c-left{
+    flex: 1;
+}
+
+.c-title{
+
+}
+
+.c-body{
+    line-height: 2rem;
+    text-transform: capitalize;
+    margin-top: 30px;
+    width: 85%;
+}
+
+.c-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-title{
+    font-size: 60px;
+    width: 80%;
+}
+
+.c-info-item{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300;
+}
+
+.c-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.c-desc{
+    font-weight: 400;
+    width: 100%;
+}
+
+form{
+    margin-top: 20px;
+}
+
+input{
+    width: 70%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #000;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+textarea{
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+button{
+   border: none;
+   padding: 15px;
+   background: var(--gradient);
+   color: white;
+   font-weight: 500;
+   cursor: pointer;  
+   text-transform: uppercase;
+}
+
+button:hover{
+    opacity: .8;
+}
+
+.c-org_info{
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+
+    /* background-color: #080D38;
+    clip-path: polygon(0 35%, 100% 3%, 100% 100%, 0% 100%); */
+
+    /* position: inherit;
+    width: 100vw; */
+}
+
+.c-org_info h2{
+    font-size: 2.5rem;
+    margin-bottom: 3vh;
+}
+
+.social_icons{
+    width: 100%;
+}
+
+.social_icons a img{
+    width: 30px;
+    margin-left: 20px;
+}
+
+.c-org_details{
+    margin-top: 15px;
+}
+
+.c-org_icon__text{
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.c-org_icon__text img{
+    width: 30px;
+    margin-right: 10px;
+}

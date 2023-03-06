@@ -1,0 +1,23 @@
+.scale_container{
+    /* clip-path: polygon(0 13%, 100% 0, 100% 84%, 0% 100%); */
+    padding-top: 10rem;
+    background: #080D38;
+    height: 80vh;
+    /* transform-origin: 0;  */
+}
+
+.scale_container h4, .scale_container h1, .scale_container p{
+    color: white;
+}
+
+.scale_container__item h5{
+    padding-bottom: 10px;
+    font-size: 12rem !important;
+}
+
+.scale_container__item h5, .scale_container__item p{
+    color: white !important;
+    font-size: 1.020rem !important;
+}
+
+

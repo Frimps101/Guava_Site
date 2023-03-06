@@ -1,8 +1,8 @@
 .wrapper{
     /* width: 100%; */
     background: linear-gradient(109.6deg, rgb(123, 90, 224) 11.2%, rgb(164, 46, 253) 32.6%, rgb(213, 56, 234) 62.7%, rgb(238, 116, 24) 100.2%);  
-    animation: animate 15s ease infinite; 
-    height: 85vh;
+    animation: gradient 15s ease infinite; 
+    height: 90vh;
     transform-origin: 0;
     transform: skewY(-11deg);
     padding-top: 10rem;
@@ -13,16 +13,16 @@
     width: 40%;
 }
 
-@keyframes animate {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .hero_container{
@@ -44,13 +44,12 @@
 
 .content{
     display: flex;
-    gap: 6rem;
+    gap: 5rem;
 }
 
 .content_text{
     flex: 1;
-    margin-top: 4rem;
-    /* width: 40%; */
+    margin-top: 6rem;
     height: 80%;
 }
 
@@ -69,19 +68,15 @@
 
 
 .content_imgs{
-    flex: .5;
+    /* flex: .5; */
 }
 
 .img{
-    width: 264px;
-    height: 533px;
-    margin-top: 3.5rem;
+    /* height: 60%;  */
+    /* margin-top: 3.5rem; */
     z-index: 1000;
 }
 
 .content_imgs img{
-    width: 100%;
-    height: 100%;
-    border-radius: 30px;
-    z-index: 1000;
+    width: 350px;
 }
