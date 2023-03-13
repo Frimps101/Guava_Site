@@ -2,43 +2,31 @@ import React, { useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import './Faqs.css';
+import Navbar from "../components/Navbar";
+import {data} from "../data"
 
 const Faqs = () => {
-  const [answersVisible, setAnswersVisible] = useState(false);
+  const [openQuestion, setOpenQuestion] = useState(null);
 
-  const toggleAnswers = () => {
-    setAnswersVisible(!answersVisible);
-  };
+  const toggleQuestion = (index) => {
+    setOpenQuestion(openQuestion === index ? null : index);
+  }
   return (
     <div className="faqs_header">
-    <Header title="FAQs" />
+    <Navbar />
+    {/* <Header title="FAQs" /> */}
       <div className="faq-section section">
         <h2 className="faq-title">Frequently Asked Questions</h2>
         <div className="faq-list">
-          <div className="faq-item" onClick={toggleAnswers}>
-            <h3>Question 1</h3>
-            <div
-              className={`faq-answer ${answersVisible ? "visible" : "hidden"}`}
-            >
-              <p>Answer 1</p>
+        {data.map((item, index)=>(
+          <div className={`faq-item ${openQuestion === index ? 'open' : ''}`} key={index} onClick={() => toggleQuestion(index)}>
+            <h3>{item.question} <span className={`arrow ${openQuestion === index ? 'up' : 'down'}`}>&#9660;</span></h3>
+            <div className={`faq-answer ${openQuestion === index ? 'visible' : ''}`}>
+              <p>{item.answer}</p>
             </div>
           </div>
-          <div className="faq-item" onClick={toggleAnswers}>
-            <h3>Question 2</h3>
-            <div
-              className={`faq-answer ${answersVisible ? "visible" : "hidden"}`}
-            >
-              <p>Answer 2</p>
-            </div>
-          </div>
-          <div className="faq-item" onClick={toggleAnswers}>
-            <h3>Question 3</h3>
-            <div
-              className={`faq-answer ${answersVisible ? "visible" : "hidden"}`}
-            >
-              <p>Answer 3</p>
-            </div>
-          </div>
+        ))}
+          
         </div>
       </div>
 

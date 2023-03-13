@@ -10,7 +10,7 @@
 .reason_container h1{
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: #072A6C;
+    color: var(--violet-dark);
 }
 
 .reason-content{
@@ -26,11 +26,10 @@
 
 .reason-content .content-item h5{
     font-size: 1.2rem;
-    color: #072A6C;
+    color: var(--violet-dark);
 }
 
 .reason-content .content-item p{
     font-size: 14px;
     line-height: 1.5rem;
-    color: #072a6caf;
 }

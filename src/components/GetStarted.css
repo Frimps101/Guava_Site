@@ -9,14 +9,14 @@
 }
 
 .started_first h3{
-    color: blue;
+    color: var(--violet-dark);
     margin-bottom: 1.2rem;
 }
 
 .started_first p{
     font-size: 1.1rem;
     line-height: 1.8rem;
-    color: #072a6cce;
+    color: black;
 }
 
 .started_second, .started_third{
@@ -28,14 +28,9 @@
     font-weight: bold;
     font-size: 1rem;
     margin-bottom: 1.2rem;
-    color: #072A6C;
+    color: var(--violet-dark);
 }
 
 .started_text p{
-    color: #072a6cce;
+    color: black;
 }
-
-/* .started_text .btn{
-    margin-top: 1.2rem;
-    color: blue;
-} */
