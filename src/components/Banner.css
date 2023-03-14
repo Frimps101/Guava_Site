@@ -20,9 +20,13 @@
 }
 
 .b-left--upper h2 {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 900;
-  color: var(--violet);
+  background: linear-gradient(var(--violet), var(--violet-dark));
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  /* color: var(--violet); */
 }
 
 .b-left--lower {

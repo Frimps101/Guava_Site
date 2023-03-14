@@ -1,8 +1,12 @@
 .scale_container{
-    /* clip-path: polygon(0 13%, 100% 0, 100% 84%, 0% 100%); */
+    background-blend-mode: darken;
+
     padding-top: 10rem;
-    background: #080D38;
+    background-image: url("../../src/images/abstract_bg.jpg");
+
+    background-color: rgba(0,0,0,.7);
     height: 80vh;
+    background-attachment: fixed;
     /* transform-origin: 0;  */
 }
 
