@@ -17,6 +17,9 @@ const Navbar = () => {
         <Link to="/enterprise" className="nav_item">
           Enterprise
         </Link>
+        <Link to="/app" className="nav_item">
+          Guava App
+        </Link>
         <Link to="/contact" className="nav_item">
           Contact
         </Link>
