@@ -3,7 +3,7 @@
 }
 
 .platform_container h4 {
-  color: var(--violet);
+  color: var(--violet-dark);
   margin-bottom: 2rem;
 }
 
@@ -11,6 +11,7 @@
   font-size: 2rem;
   margin-bottom: 2rem;
   color: var(--violet-dark);
+  font-weight: bold;
 }
 
 .platform-content {
@@ -20,14 +21,13 @@
   margin-bottom: 5rem;
 }
 
-.content-left {
-  color: #072a6cce;
-}
-
 .platform-content .content-left,
 .platform-content .content-right {
   flex: 1;
-  color: #072a6cce;
+}
+
+span {
+  color: var(--violet-dark);
 }
 
 .platform-img {

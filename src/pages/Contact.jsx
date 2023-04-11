@@ -2,8 +2,6 @@ import React from "react";
 //import { useContext, useRef, useState } from "react"
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Header from "../components/Header";
-// import Footer from '../components/Footer'
 import ContactForm from "../components/ContactForm";
 import "./Contact.css";
 

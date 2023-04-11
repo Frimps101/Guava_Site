@@ -1,13 +1,13 @@
 import React from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
 import './Company.css'
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Company = () => {
   return (
     <div className="companies_wrapper">
         
-        <Header title="About Guava"/>
+        <Navbar />
         
         <section className="companies_content">
             Guava Technologies is a financial asset manager and investing
@@ -45,7 +45,7 @@ const Company = () => {
             </div>
         </section>
         
-        <Footer className="footer"/>
+        <Footer />
         
     </div>
   )

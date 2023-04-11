@@ -11,13 +11,13 @@ const Navbar = () => {
       </Link>
 
       <nav className="nav">
-        <Link to="/about" className="nav_item">
+        <Link to="/company" className="nav_item">
           Company
         </Link>
         <Link to="/enterprise" className="nav_item">
           Enterprise
         </Link>
-        <Link to="/app" className="nav_item">
+        <Link to="/guava" className="nav_item">
           Guava App
         </Link>
         <Link to="/contact" className="nav_item">

@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Enterprise = () => {
   return (
-    <div className="section">
+    <>
+        <Navbar />
+        <div className="section">
+
         <div className="">
             <h2>What is Guava technologies Solutions for Business Enterprise </h2>
             <p>
@@ -38,6 +43,8 @@ const Enterprise = () => {
             </p>
         </div>
     </div>
+    <Footer />
+    </>
   )
 }
 
