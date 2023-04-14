@@ -1,0 +1,32 @@
+.enterprise, .securities{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enterprise-text h2{
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+
+.enterprise-text p{
+    line-height: 1.5rem;
+}
+
+.business {
+    margin-top: 4rem;
+}
+
+.business h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.business p{
+    columns: 2;
+    margin-bottom: 20px;
+    text-align: justify;
+    gap: 30px;
+    line-height: 1.4rem;
+}

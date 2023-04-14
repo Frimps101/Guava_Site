@@ -1,0 +1,138 @@
+.head h2{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+.head p{
+    margin-top: 1rem;
+    line-height: 1.4rem;
+}
+
+.steps h2{
+    margin-top: 4rem;
+    font-size: 1.8rem;
+}
+.steps p{
+    font-size: 1rem;
+    font-weight: 550;
+    opacity: .9;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    line-height: 2rem;
+}
+
+.ic{
+    padding-right: 5px;
+}
+
+.warning{
+    color: red;
+}
+
+.disclosure{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.disclosure h2{
+    font-size: 2rem;
+}
+
+.disclosure p{
+    columns: 2;
+    text-align: left;
+    line-height: 1.4rem;
+}
+
+.protection{
+    margin-top: 5rem;
+}
+
+.protection h2{
+    font-size: 2rem;
+    margin-bottom: .8rem;
+}
+
+.protection-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.protection-icon{
+    padding-left: 10px;
+    font-size: 1.8rem;
+}
+
+.protection-icon:hover{
+    color: var(--violet);
+}
+
+.protection-text{
+    margin-bottom: 1rem;
+}
+
+.charges{
+    margin-top: 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .charges-withdrawals{
+    display: flex;
+} */
+
+.charges-deposits{
+    flex: 1;
+}
+
+.charges-deposits__title{
+    margin-bottom: 10px;
+}
+
+.charges-deposits__text{
+    line-height: 1.6rem;
+}
+
+.charges-withdrawals{
+    flex: 2;
+}
+
+.withdrawals-sections{
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.charges-withdrawals__title{
+    margin-bottom: 8px;
+}
+
+.withdrawals-sections__left{
+    flex: 3;
+}
+
+.withdrawals-sections__right{
+    flex: 1;
+}
+
+.invest{
+    margin-top: 5rem;
+}
+
+.invest-title{
+    margin-bottom: 1rem;
+}
+
+.invest-text{
+    margin-bottom: 8px;
+}
