@@ -23,9 +23,7 @@ const Contact = () => {
   return (
     <div className="contact_header">
       <Navbar />
-      {/* <Header title='Contact'/> */}
       <ContactForm className="f" />
-      {/* <Footer /> */}
       <Footer />
     </div>
   );
