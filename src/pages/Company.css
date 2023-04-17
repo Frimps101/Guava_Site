@@ -2,16 +2,41 @@ section{
     padding: 2rem 9%;
 }
 
-.enterprise{
-    margin-top: 5rem;
+.companies-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.enterprise-head h2{
+.companies-intro__text{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.companies-people{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.companies-people-img img{
+    width: 700px;
+}
+
+.companies-people__item i{
+    padding-right: 10px;
+}
+
+.companies-enterprise__head{
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 5rem;
 }
 
-.enterprise-head p{
-    color: black;
-    margin-bottom: 1.5rem;
+.companies-enterprise-list{
+    width: 80%;
+    margin: auto;
+}
+
+.fa-solid.fa-arrows-spin{
+    padding-right: 10px;
 }
