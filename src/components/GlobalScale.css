@@ -2,7 +2,11 @@
     background-blend-mode: darken;
 
     padding-top: 10rem;
-    background-image: url("../../src/images/abstract_bg.jpg");
+    /* background-image: url("../../src/images/abstract_bg.jpg"); */
+    background-image: url("../../src/images/map.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
     background-color: rgba(0,0,0,.6);
     height: 80vh;

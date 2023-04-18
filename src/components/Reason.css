@@ -8,14 +8,17 @@
 }
 
 .reason_container h1 {
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
   margin-bottom: 2rem;
   color: var(--violet-dark);
 }
 
 .reason-content {
-  display: flex;
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-gap: 2rem;
 }
 
 .reason-content .content-item {
@@ -32,4 +35,5 @@
 .reason-content .content-item p {
   font-size: 15px;
   line-height: 1.5rem;
+  width: 80%;
 }

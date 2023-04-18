@@ -7,10 +7,10 @@ const Globe = () => {
         <section className="globe-container">
           <div className="globe-text">
             <h2 className="globe-text__title">
-              Where the world builds software
+              Revolutionize your finances with our cutting-edge app
             </h2>
             <p className="globe-text__content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ex placeat, aliquam nesciunt at libero laboriosam odio reprehenderit. Nam, officia.
+            Our finance-crypto app is designed to simplify your investments in cryptocurrency. With our user-friendly interface and advanced tools, you can easily trade, track, and manage your assets on the go. 
             </p>
           </div>
           <div className="globe-img">
