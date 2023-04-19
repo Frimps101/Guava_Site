@@ -6,7 +6,7 @@ const GlobalScale = () => {
     <section className="reason_container scale_container">
         <div className="scale_container__contents">
             <h4>Global Scale</h4>
-            <h1>The backbone for internet business.</h1>
+            <h1>The <span className='span-text'>backbone</span> for internet business.</h1>
         </div>
 
         <div className="reason-content scale_container__contents">

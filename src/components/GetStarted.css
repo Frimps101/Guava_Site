@@ -5,7 +5,7 @@
 }
 
 .started-ready__text h3{
-    font-size: 2.4rem;
+    font-size: 3.4rem;
     font-weight: 900;
     margin-bottom: 20px;
 }
@@ -14,3 +14,20 @@
     line-height: 1.4rem;
     width: 60%;
 }
+
+.started-img img{
+    position: relative;
+    animation: rocket 2s ease-in-out infinite;
+}
+
+@keyframes rocket {
+    0% {
+      top: 0;
+    }
+    50% {
+      top: -50px;
+    }
+    100% {
+      top: 0;
+    }
+  }

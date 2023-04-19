@@ -9,7 +9,7 @@
     background-repeat: no-repeat;
 
     background-color: rgba(0,0,0,.6);
-    height: 80vh;
+    height: 70vh;
     background-attachment: fixed;
     /* transform-origin: 0;  */
 }
@@ -29,3 +29,27 @@
 }
 
 
+.reason-content{
+    margin-top: 4rem;
+    display: flex;
+    /* background: orange; */
+    padding: 1rem;
+}
+
+.content-item{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.content-item:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -1px; /* adjust as needed */
+    border-right: 1px solid #ccc; /* adjust color and thickness as needed */
+  }
+
+  .content-item:last-child:after {
+    border-right: none;
+  }

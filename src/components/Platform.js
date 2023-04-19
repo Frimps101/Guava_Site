@@ -9,7 +9,7 @@ const Platform = () => {
       <div className="platform-title">
         <h4>Unified Platform</h4>
         <h1>
-          A fully integrated suite of <br /> payments products
+          A <span className="span-text">fully integrated</span> suite of payments products
         </h1>
       </div>
 

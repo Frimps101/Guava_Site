@@ -1,5 +1,5 @@
 .platform_container {
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 
 .platform_container h4 {
@@ -8,10 +8,10 @@
 }
 
 .platform_container h1 {
-  font-size: 2rem;
+  font-size: 3.4rem;
   margin-bottom: 2rem;
-  color: var(--violet-dark);
-  font-weight: bold;
+  font-weight: 800;
+  width: 50%;
 }
 
 .platform-content {

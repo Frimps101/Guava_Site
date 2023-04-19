@@ -1,5 +1,5 @@
 .reason_container {
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 
 .reason_container h4 {
@@ -8,10 +8,10 @@
 }
 
 .reason_container h1 {
-  font-size: 3rem;
-  font-weight: bold;
+  font-size: 3.4rem;
+  font-weight: 800;
   margin-bottom: 2rem;
-  color: var(--violet-dark);
+  width: 70%;
 }
 
 .reason-content {

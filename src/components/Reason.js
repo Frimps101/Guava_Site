@@ -10,7 +10,7 @@ const Reason = () => {
     <section className="reason_container">
         <div className="">
             <h4>Why Guava? </h4>
-            <h1>A technology First approach to <br /> financial investments infrastructure</h1>
+            <h1>A <span className='span-text'>technology first</span> approach to financial investments infrastructure</h1>
         </div>
 
         <div className="reason-content">

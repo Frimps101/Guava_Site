@@ -40,3 +40,9 @@ section {
 .section {
   padding: 1rem 12%;
 }
+
+.span-text{
+  background: var(--violet-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
