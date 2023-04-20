@@ -8,6 +8,7 @@ import Platform from "../components/Platform";
 import Reason from "../components/Reason";
 import GlobalScale from "../components/GlobalScale";
 import Sponsors from "../components/Sponsors";
+import Newsletter from "../components/Newsletter";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <Globe />
       <GetStarted />
       <GlobalScale />
+      <Newsletter />
       <Footer />
     </div>
   );

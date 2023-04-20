@@ -34,16 +34,16 @@ const ContactForm = () => {
                 </div>
                 <div className="c-org_details">
                     <div className="c-org_icon__text">
-                        <img src={Email} alt="" />
-                        <p>info@guavatechnologies.com</p>
+                    <i class="fa-solid fa-envelope"></i>
+                        <p>guavatechnologiesafrica@gmail.com</p>
                     </div>
                     <div className="c-org_icon__text">
-                        <img src={Phone} alt="" />
-                        <p>info@guavatechnologies.com</p>
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+233209146163</p>
                     </div>
                     <div className="c-org_icon__text">
-                        <img src={Location} alt="" />
-                        <p>info@guavatechnologies.com</p>
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        <p>Coastal, Spintex.</p>
                     </div>
                 </div>
             </div>

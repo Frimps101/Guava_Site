@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <header className="nav_container section">
       <Link to="/" className="logo">
-        <img src={Logo} alt="" />
+        <img src={Logo} alt="" className="logo-img"/>
       </Link>
 
       {/* <div className="menu-icon" onClick={handleClick}>
@@ -34,7 +34,7 @@ const Navbar = () => {
           Contact
         </Link>
         <Link to="/faqs" className="nav_item">
-          Faqs
+          FAQ
         </Link>
       </nav>
     </header>

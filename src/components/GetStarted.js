@@ -13,7 +13,7 @@ const GetStarted = () => {
             <div className="started-ready__text">
                 <h3><span className='span-text'>Ready</span> to get started?</h3>
                 <p>
-                    Explore Stripe Payments, or create an account instantly and start accepting payments. You can also contact us to design a custom package for your business.
+                    Explore Guava payments, or create an account instantly and start accepting payments. You can also contact us to design a custom package for your business.
                 </p>
             </div>
         </div>

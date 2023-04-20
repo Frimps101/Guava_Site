@@ -19,7 +19,7 @@ const GlobalScale = () => {
             <div className="content-item scale_container__item">
                 <h5>90%</h5>
                 <p className="content-text">
-                    of Ghanaian adults have bought from businesses using Stripe.  
+                    of Ghanaian adults have bought from businesses using Guava.  
                 </p>
             </div>
             <div className="content-item scale_container__item">

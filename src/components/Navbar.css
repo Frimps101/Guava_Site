@@ -17,6 +17,10 @@
   margin-right: 10px;
 }
 
+.logo-img{
+  color: var(--violet-dark);
+}
+
 .nav_item {
   margin-left: 4rem;
   color: black;
