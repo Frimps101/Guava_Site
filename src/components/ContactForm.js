@@ -60,7 +60,7 @@ const ContactForm = () => {
                         <input type="text" placeholder="Subject" name="user_subject"/>
                         <input type="text" placeholder="Email" name="user_email"/>
                         <textarea name="message" rows="5 " placeholder="Message"></textarea>
-                        <button>Submit</button>
+                        <button className='c-btn'>Submit</button>
                         <p className="c-thanks">Thank you.</p>
                     </form>
                 </div>

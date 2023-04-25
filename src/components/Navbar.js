@@ -12,61 +12,63 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="nav-header">
+      <header className="nav-header section">
         <div className="nav-header__left">
           <div className="">
             <img src={Logo} alt="" className="logo-img" />
           </div>
 
-          <div className="header-dropdowns">
-            <div class="dropdown">
-              <button class="dropbtn">Product</button>
-              <div class="dropdown-content">
-                <a href="#">Guava app</a>
-                <a href="#">Guava wallet</a>
-                <a href="#">Card</a>
-                <a href="#">Guava Wealth</a>
+          <div className="dropdowns">
+            <div className="header-dropdowns">
+              <div class="dropdown">
+                <button class="dropbtn">Product</button>
+                <div class="dropdown-content">
+                  <a href="#">Guava app</a>
+                  <a href="#">Guava wallet</a>
+                  <a href="#">Card</a>
+                  <a href="#">Guava Wealth</a>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="header-dropdowns">
-            <div class="dropdown">
-              <button class="dropbtn">Business</button>
-              <div class="dropdown-content">
-                <a href="#">Brokerage firms</a>
-                <a href="#">Banks</a>
-                <a href="#">SMEs</a>
-                <a href="#">Global Business</a>
-                <a href="#">Pricing</a>
+            <div className="header-dropdowns">
+              <div class="dropdown">
+                <button class="dropbtn">Business</button>
+                <div class="dropdown-content">
+                  <a href="#">Brokerage firms</a>
+                  <a href="#">Banks</a>
+                  <a href="#">SMEs</a>
+                  <a href="#">Global Business</a>
+                  <a href="#">Pricing</a>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="header-dropdowns">
-            <div class="dropdown">
-              <button class="dropbtn">Developers</button>
-              <div class="dropdown-content">
-                <a href="#">Documentation</a>
-                <a href="#">Wallet SDK</a>
-                <a href="#">Payments</a>
-                <a href="#">Exchange API</a>
-                <a href="#">Power Automated Trading</a>
-                <a href="#">Integrate your Blockchain</a>
-                <a href="#">Plugins</a>
+            <div className="header-dropdowns">
+              <div class="dropdown">
+                <button class="dropbtn">Developers</button>
+                <div class="dropdown-content">
+                  <a href="#">Documentation</a>
+                  <a href="#">Wallet SDK</a>
+                  <a href="#">Payments</a>
+                  <a href="#">Exchange API</a>
+                  <a href="#">Power Automated Trading</a>
+                  <a href="#">Integrate your Blockchain</a>
+                  <a href="#">Plugins</a>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="header-dropdowns">
-            <div class="dropdown">
-              <button class="dropbtn">Company</button>
-              <div class="dropdown-content">
-                <a href="#">About Us</a>
-                <a href="#">Careers</a>
-                <a href="#">Support</a>
-                <a href="#">Blog</a>
-                <a href="#">Security</a>
+            <div className="header-dropdowns">
+              <div class="dropdown">
+                <button class="dropbtn">Company</button>
+                <div class="dropdown-content">
+                  <a href="#">About Us</a>
+                  <a href="#">Careers</a>
+                  <a href="#">Support</a>
+                  <a href="#">Blog</a>
+                  <a href="#">Security</a>
+                </div>
               </div>
             </div>
           </div>
@@ -74,11 +76,13 @@ const Navbar = () => {
         </div>
 
         <div className="nav-header__right">
-          <div className="nav-header__right">
+          <div className="nav-header__right-item">
             Pricing
+            <i class="fa-solid fa-angle-right"></i>
           </div>
-          <div className="nav-header__right">
+          <div className="nav-header__right-item">
             Sign In
+            <i class="fa-solid fa-angle-right"></i>
           </div>
         </div>
       </header>

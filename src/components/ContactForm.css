@@ -70,7 +70,7 @@ textarea{
     padding-left: 10px;
 }
 
-button{
+.c-btn{
    border: none;
    padding: 15px;
    background: var(--gradient);
@@ -80,7 +80,7 @@ button{
    text-transform: uppercase;
 }
 
-button:hover{
+.c-btn:hover{
     opacity: .8;
 }
 
